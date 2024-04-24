@@ -51,6 +51,6 @@ def crop_circle(image_path, output_path):
   cropped_image.save(output_path)
 
 # 例
-image_path = "input.jpeg"
-output_path = "output.png"
+image_path = "../input.jpeg"
+output_path = "../output.png"
 crop_circle(image_path, output_path)
